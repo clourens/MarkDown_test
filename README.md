@@ -64,13 +64,10 @@ De repo waarin we wat aanpassingen aangebracht hebben (en die ook vermeld wordt 
 
 
 # Inhoudsopgave
-___
-- [Versie beheer](#versie-beheer)
-- [Inhoudsopgave](#inhoudsopgave)
 - [IDE](#ide)
 - [GIT](#git)
 - [PlantUML](#plantuml)
-
+___
 
 # IDE
 
@@ -109,7 +106,7 @@ Om nu een voorbeeld te zien van een PlantUML diagram kan je de toetscombinatie \
     - [Help](#help)
     - [Pull / Fetch](#pull--fetch)
     - [Branch / Checkout](#branch--checkout)
-
+___
 ## Installatie
 
 GIT is een applicatie om lokaal als VCS (Version Control System) te gebruiken, meer info.
@@ -241,7 +238,7 @@ Via de commando's `Add`, `Commit` en `Merge` zet je lokale branch door naar de b
         - [VLan](#vlan)
         - [Machine](#machine)
       - [Vdc_rules.puml](#vdc_rulespuml)
-
+___
 ## Introductie
 
 PlantUML is een standaard om diagrammen te maken o.b.v. code in UML bestanden. UML staat voor Unfied Modeling Language, meer informatie kan je [hier](https://nl.wikipedia.org/wiki/Unified_Modeling_Language) vinden.
