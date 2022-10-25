@@ -619,7 +619,7 @@ Zoals te zien worden hier 8 containerservers beschreven (cs1..8 in de naam geeft
 
 `machine(tenant1-vdc1-az2-cs3, \"10.31.2.3/29\", \"172.23.12.4/29\", \"172.18.12.4\", 4, 2, 16G, 32GB, 200GB, containerservers, \$verbose)`
 
-machine(tenant1-vdc1-az2-cs4, \"10.31.2.3/29\", \"172.23.12.4/29\", \"172.18.12.4\", 4, 2, 16G, 32GB, 200GB, containerservers, \$verbose)
+`machine(tenant1-vdc1-az2-cs4, \"10.31.2.3/29\", \"172.23.12.4/29\", \"172.18.12.4\", 4, 2, 16G, 32GB, 200GB, containerservers, \$verbose)`
 
 `machine(tenant1-vdc1-az2-cs5, \"10.31.2.3/29\", \"172.23.12.4/29\", \"172.18.12.4\", 4, 2, 16G, 32GB, 200GB, containerservers, \$verbose)`
 
