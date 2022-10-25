@@ -63,6 +63,26 @@ De repo waarin we wat aanpassingen aangebracht hebben (en die ook vermeld wordt 
 </table>
 
 
+# Inhoudsopgave
+___
+[IDE](#IDE) <br>
+[GIT](#GIT) <br>
+[Installatie](##Installatie) <br>
+[Uitvoeren commando's - workflow](##Uitvoeren commando's - workflow) <br>
+[Token aanmaken](##Token aanmaken) <br>
+[Veel gebruikte commando's](##Veel gebruikte commando's) <br>
+[](###) <br>
+[](###) <br>
+[](###) <br>
+[](###) <br>
+[](###) <br>
+[](###) <br>
+[](###) <br>
+[](###) <br>
+[](###) <br>
+[PlantUML](#PlantUML) <br>
+
+
 # IDE
 
 Voor IDE (Integrated Development Environment) gebruiken we hier VSCode van Microsoft. Dit is gratis te installeren en ondersteund meerdere programmeer talen, XML, YAML, JSON, etc. (dus ook handig voor bijv. Ansible en Terraform).
@@ -105,7 +125,7 @@ Om te controleren of je de laatste versie hebt (en evt. een update te installere
 
 Voor meer informatie over de werking van GIT, zie o.a. hier : <https://git-scm.com/doc>.
 
-## Uitvoeren commando's / workflow
+## Uitvoeren commando's - workflow
 
 De git commando's kan je op meerder manieren uitvoeren. Het is wel aan te raden om dit zoveel mogelijk vanaf een commandline te doen i.p.v. er grafische oplossingen voor te gebruiken omdat je op deze manier beter leert hoe het hele GIT proces in elkaar steekt.
 
