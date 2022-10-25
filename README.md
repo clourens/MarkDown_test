@@ -75,7 +75,7 @@ Na installatie is het handig om een aantal extensies te installeren, o.a. die vo
 
 In het extensions overzicht zie je reeds geinstalleerde extensions en kan je zoeken naar nieuwe. Makkelijkste manier is om de naam in te typen in de zoekbox bovenin.
 
-![A screenshot of a computer screen Description automatically generated with medium confidence](images/media/image2.png){}
+![A screenshot of a computer screen Description automatically generated with medium confidence](images/media/image2.png)
 
 In dit geval is de eerstgenoemde optie ook de extensie die het laatst bijgewerkt is en hier gebruikt kan worden (auteur Jebbs, versie 2.17.4 op moment van maken document, laatste update 09-05-2022). Om deze extensie te installeren, klik op de Install knop of open de Quick Open optie \[ CTRL + P \] en type `ext install plantuml`.
 
@@ -83,7 +83,7 @@ Na installatie scroll je, onder Details, door naar requirements en volg je de st
 
 Om nu een voorbeeld te zien van een PlantUML diagram kan je de toetscombinatie \[ ALT + D \] gebruiken en dan wordt het werkvlak in 2 delen gedeeld waarbij het rechterdeel het voorbeeld van de PlantUML diagram laat zien. Als je wat aanpast in het diagram (linker venster) dan wordt dat vrijwel direct aangepast in het voorbeeld.
 
-![Extensions overview](images/media/image3.png){}
+![Extensions overview](images/media/image3.png)
 
 # GIT
 
@@ -223,11 +223,11 @@ Voor meer informatie over PlantUML en hoe diagrammen opgebouwd / gestructureerd 
 
 Opzet van een standaard folder structuur ziet er als volgt uit :
 
-![PlantUML Structuur](images/media/image6.png){}
+![PlantUML Structuur](images/media/image6.png)
 
 In een tekening (het Diagram wordt iedere keer aangeroepen vanuit een readme.md (markdown) bestand in de betreffende GIT folder) :
 
-![Diagram Description automatically generated](images/media/image4.png){}
+![Diagram Description automatically generated](images/media/image4.png)
 
 Bovenstaande is geen universele PlantUML standaard, echter is dit wat wij binnen DGD en DDM hebben afgesproken. Op deze manier kunnen we sneller diagrammen maken die grote gelijkenis met elkaar vertonen zonder iedere keer opnieuw "het wiel uit te moeten vinden".
 
@@ -409,7 +409,7 @@ Dit is het diepste niveau dat we hier onderkennen. In deze folder / dit niveau h
 
 In tekening ziet het er zo uit :
 
-![Diagram Description automatically generated](images/media/image5.png){}
+![Diagram Description automatically generated](images/media/image5.png)
 
 #### Vdc_diagram.puml
 
