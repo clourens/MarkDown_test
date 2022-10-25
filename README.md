@@ -69,39 +69,7 @@ ___
 - [Inhoudsopgave](#inhoudsopgave)
 - [IDE](#ide)
 - [GIT](#git)
-  - [Installatie](#installatie)
-  - [Uitvoeren commando's - workflow](#uitvoeren-commandos---workflow)
-  - [Token aanmaken](#token-aanmaken)
-  - [Veel gebruikte commando's](#veel-gebruikte-commandos)
-    - [Clone](#clone)
-    - [Status](#status)
-    - [Add](#add)
-    - [Commit](#commit)
-    - [Push](#push)
-    - [Merge](#merge)
-    - [Help](#help)
-    - [Pull / Fetch](#pull--fetch)
-    - [Branch / Checkout](#branch--checkout)
 - [PlantUML](#plantuml)
-  - [Introductie](#introductie)
-  - [Structuur](#structuur)
-    - [Root](#root)
-    - [Organisatie](#organisatie)
-      - [Voorziening_diagram.puml](#voorziening_diagrampuml)
-      - [Voorziening.puml](#voorzieningpuml)
-    - [Tenant(x)](#tenantx)
-      - [Tenant_diagram.puml](#tenant_diagrampuml)
-      - [Tenant.puml](#tenantpuml)
-    - [VDC(x)](#vdcx)
-      - [Vdc_diagram.puml](#vdc_diagrampuml)
-      - [](#)
-      - [Vdc.puml](#vdcpuml)
-      - [Vdc_machines.puml](#vdc_machinespuml)
-        - [Zone](#zone)
-        - [VDC](#vdc)
-        - [VLan](#vlan)
-        - [Machine](#machine)
-      - [Vdc_rules.puml](#vdc_rulespuml)
 
 
 # IDE
@@ -127,6 +95,20 @@ Om nu een voorbeeld te zien van een PlantUML diagram kan je de toetscombinatie \
 ![Extensions overview](images/media/image3.png)
 
 # GIT
+
+  - [Installatie](#installatie)
+  - [Uitvoeren commando's - workflow](#uitvoeren-commandos---workflow)
+  - [Token aanmaken](#token-aanmaken)
+  - [Veel gebruikte commando's](#veel-gebruikte-commandos)
+    - [Clone](#clone)
+    - [Status](#status)
+    - [Add](#add)
+    - [Commit](#commit)
+    - [Push](#push)
+    - [Merge](#merge)
+    - [Help](#help)
+    - [Pull / Fetch](#pull--fetch)
+    - [Branch / Checkout](#branch--checkout)
 
 ## Installatie
 
@@ -239,6 +221,26 @@ Werken in de nieuwe branch doe je door `git checkout <nieuwe branch naam>` uit t
 Via de commando's `Add`, `Commit` en `Merge` zet je lokale branch door naar de bron (repository).
 
 # PlantUML 
+
+  - [Introductie](#introductie)
+  - [Structuur](#structuur)
+    - [Root](#root)
+    - [Organisatie](#organisatie)
+      - [Voorziening_diagram.puml](#voorziening_diagrampuml)
+      - [Voorziening.puml](#voorzieningpuml)
+    - [Tenant(x)](#tenantx)
+      - [Tenant_diagram.puml](#tenant_diagrampuml)
+      - [Tenant.puml](#tenantpuml)
+    - [VDC(x)](#vdcx)
+      - [Vdc_diagram.puml](#vdc_diagrampuml)
+      - [](#)
+      - [Vdc.puml](#vdcpuml)
+      - [Vdc_machines.puml](#vdc_machinespuml)
+        - [Zone](#zone)
+        - [VDC](#vdc)
+        - [VLan](#vlan)
+        - [Machine](#machine)
+      - [Vdc_rules.puml](#vdc_rulespuml)
 
 ## Introductie
 
