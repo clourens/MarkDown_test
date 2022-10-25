@@ -20,18 +20,47 @@ De repo waarin we wat aanpassingen aangebracht hebben (en die ook vermeld wordt 
 
 # Versie beheer
 
-+--------+----------+------------+----------------+--------------------------------------------+
-| Versie | Status   | Datum      | Wie            | Opmerking                                  |
-+========+==========+============+================+============================================+
-| 0.1    | Alpha    | 13-10-2022 | Caspar Lourens | 1^e^ versie                                |
-+--------+----------+------------+----------------+--------------------------------------------+
-| 0.2    |          | 18-10-2022 | Caspar Lourens | Tekening van PlantUML structuur toegevoegd |
-+--------+----------+------------+----------------+--------------------------------------------+
-|        |          |            |                |                                            |
-+--------+----------+------------+----------------+--------------------------------------------+
-|        |          |            |                |                                            |
-+--------+----------+------------+----------------+--------------------------------------------+
-
+<table>
+    <thead>
+        <tr>
+            <th>Versie</th>
+            <th>Status</th>
+            <th>Datum</th>
+            <th>Wie</th>
+            <th>Opmerking</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0.1</td>
+            <td>Alpha</td>
+            <td>13-10-2022</td>
+            <td>Caspar Lourens</td>
+            <td>1e versie</td>
+        </tr>
+        <tr>
+            <td>0.2</td>
+            <td></td>
+            <td>18-10-2022</td>
+            <td>Caspar Lourens</td>
+            <td>Tekening van PlantUML structuur toegevoegd</td>
+        </tr>
+        <tr>
+            <td>0.3</td>
+            <td></td>
+            <td>25-10-2022</td>
+            <td>Caspar Lourens</td>
+            <td>Omzetting van Word naar MarkDown</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 # IDE
@@ -194,25 +223,7 @@ Voor meer informatie over PlantUML en hoe diagrammen opgebouwd / gestructureerd 
 
 Opzet van een standaard folder structuur ziet er als volgt uit :
 
-+------------------------------------------------------------------------------------------------------------------------------------+
-| -   Root [Concepten.puml]                                                                                                        |
-|                                                                                                                                    |
-|     -   Organisatie [voorziening.puml]                                                                                           |
-|                                                                                                                                    |
-|     -   Diagram [voorziening_diagram.puml puml verwijst naar Concepten.puml (in root) en voorziening.puml]                       |
-|                                                                                                                                    |
-|         -   Tenant [tenant.puml]                                                                                                 |
-|                                                                                                                                    |
-|         -   Diagram [tenant_diagram.puml] verwijst naar Concepten.puml (in root) en tenant.puml]                                |
-|                                                                                                                                    |
-|             -   VDC (VPC) [vdc.puml]                                                                                             |
-|                                                                                                                                    |
-|             -   Rules (verkeerstromen) [vdc_rules.puml]                                                                          |
-|                                                                                                                                    |
-|             -   Machines (overzicht van de VM's) [vdc_machines.puml]                                                             |
-|                                                                                                                                    |
-|             -   Diagram (plaatje o.b.v. rules en machines) [vdc_diagram.puml verwijst naar Concepten.puml (in root) en vdc.puml] |
-+------------------------------------------------------------------------------------------------------------------------------------+
+![PlantUML Structuur](images/media/image6.png){}
 
 In een tekening (het Diagram wordt iedere keer aangeroepen vanuit een readme.md (markdown) bestand in de betreffende GIT folder) :
 
